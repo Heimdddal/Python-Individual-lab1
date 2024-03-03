@@ -6,3 +6,4 @@ def generateList(elementsAmount):
         list.append(random.randint(5, 1400))
     return list
 
+print(generateList(24))
